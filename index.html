@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script  defer type="module" src="signInJava.js"></script>
+
+    <title>Main Page</title>
+</head>
+<h1>Main Page</h1>
+<h2>Sign In or Sign Up</h2>
+<h4>If you have signed up before, use your login info.<br><br>Otherwise, click Sign Up</h4>
+<div id="formContainer"><div id="header"> </div>
+    <body>
+    <label for="email"></label><input type="email" placeholder="email" id="email"/>
+    <label for = "password"></label><input type="password" placeholder="password" id="password"/>
+    <br><br>
+    <button id="signIn">Sign In</button>
+    <button id="signUp">Sign Up</button>
+
+
+    <script>
+        document.getElementById("signUp").onclick = function() {
+            location.href = "signUp.html"
+        }
+
+
+
+    </script>
+
+    </body>
+</div>
+</html>
